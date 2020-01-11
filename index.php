@@ -331,7 +331,7 @@
 						<div class="row">
 						
 							<div class="sec-title text-center white wow animated fadeInDown" id="margen">
-								<h2 class="white">SIGUENOS</h2>
+								<h2 class="white">SIGUENsss</h2>
 								<p>Redes sociales Suppor Effect</p>
 							</div>
 							
