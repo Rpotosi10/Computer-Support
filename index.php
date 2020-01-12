@@ -18,7 +18,7 @@
 		<!-- CSS
 		================================================== -->
 		
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 		
 		<!-- Fontawesome Icon font -->
         <link rel="stylesheet" href="public/css/font-awesome.min.css">
@@ -34,22 +34,27 @@
         <link rel="stylesheet" href="public/css/animate.css">
 		<!-- Main Stylesheet -->
         <link rel="stylesheet" href="public/css/main.css">
+		<!---icon salomon-->
+		<link rel="stylesheet" href="public/Iconos_Salomon/style.css">	
 
 		<!-- Modernizer Script for old Browsers -->
         <script src="public/js/modernizr-2.6.2.min.js"></script>
 
+		<!--Start of Tawk.to Script-->
 		<!--Start of Tawk.to Script-->
 		<script type="text/javascript">
 		var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 		(function(){
 		var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
 		s1.async=true;
-		s1.src='https://embed.tawk.to/5e19ff0027773e0d832d0d2e/default';
+		s1.src='https://embed.tawk.to/5e1ba5c927773e0d832d2f4e/default';
 		s1.charset='UTF-8';
 		s1.setAttribute('crossorigin','*');
 		s0.parentNode.insertBefore(s1,s0);
 		})();
 		</script>
+<!--End of Tawk.to Script-->
+		
 <!--End of Tawk.to Script-->
 
     </head>
@@ -202,7 +207,7 @@
 							<div class="welcome-block">
 								<h3>¿Porque Computer Support?</h3>								
 						     	 <div class="message-body">
-									<img src="img/soporte-cliente.png" class="pull-left" alt="member">
+									<img src="public/img/soporte-cliente.png" class="pull-left" alt="member">
 						       		<p>	La eficiencia y eficacia de nuestras soluciones, son producto de nuestro compromiso con valores sólidos corporativos y con cada objetivo de nuestros clientes. <br>
 										Luchamos por relaciones a largo plazo fundamentadas en la calidad del servicio y la visión del futuro. <br> Tenemos una visión clara y un proceso ordenado 
 										que nos permitirá conocer sus necesidades y expectativas para poder ayudarlo.
@@ -331,14 +336,14 @@
 						<div class="row">
 						
 							<div class="sec-title text-center white wow animated fadeInDown" id="margen">
-								<h2 class="white">SIGUENsss</h2>
-								<p>Redes sociales Suppor Effect</p>
+								<h2 class="white">SIGUENOS</h2>
+								<p>Redes sociales Computer Support</p>
 							</div>
 							
 							<ul class="social-button">
-								<li class="wow animated zoomIn"><a href="https://www.facebook.com/Support-Effect-114457839992673/"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="https://wa.me/573102646741"><i class="fa fa-comment fa-2x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="https://www.instagram.com/supporteffect/"><i class="fa  fa-instagram fa-2x"></i></a></li>							
+								<li class="wow animated zoomIn"><a href="https://www.facebook.com/Computer-Support-110602313805261/"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+								<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="https://wa.me/573102646741"><i class="icon-whatsapp fa-2x"></i></a></li>
+								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="https://www.instagram.com/cscolombia10/?hl=es-la"><i class="fa  fa-instagram fa-2x"></i></a></li>							
 							</ul>
 							
 						</div>
@@ -353,24 +358,24 @@
 					<div class="row">
 						
 						<div class="sec-title text-center wow animated fadeInDown">
-							<h2>Contáctanos</h2>
+							<h2>INGRESA TU CORREO ELECTRÓNICO</h2>
 							<p>Escríbenos tus inquietudes</p>
 						</div>
 						
 						
 						<div class="col-md-7 contact-form wow animated fadeInLeft">
-							<form action="#" method="post">
+							<form action="enviar.php" method="post">
 								<div class="input-field">
-									<input type="text" name="name" class="form-control" placeholder="Nombre...">
+									<input type="text" name="Nombre" class="form-control" placeholder="Nombre...">
 								</div>
 								<div class="input-field">
-									<input type="email" name="email" class="form-control" placeholder="Email...">
+									<input type="email" name="Email" class="form-control" placeholder="Email...">
 								</div>
 								<div class="input-field">
-									<input type="text" name="subject" class="form-control" placeholder="Asunto...">
+									<input type="text" name="Asunto" class="form-control" placeholder="Asunto...">
 								</div>
 								<div class="input-field">
-									<textarea name="message" class="form-control" placeholder="Mensaje..."></textarea>
+									<textarea name="Mensaje" class="form-control" placeholder="Mensaje..."></textarea>
 								</div>
 						       	<button type="submit" id="submit" class="btn btn-blue btn-effect">Enviar</button>
 							</form>
@@ -378,17 +383,17 @@
 						
 						<div class="col-md-5 wow animated fadeInRight">
 							<address class="contact-details">
-								<h3>Contáctanos</h3>						
-								<p><i class="fa fa-dot-circle-o"></i>Support Effect</p><br>
+								<h3>Contáctos</h3>						
+								<p><i class="fa fa-dot-circle-o"></i>Computer Support</p><br>
 								<p><i class="fa fa-map-marker"></i>Cali, Valle del Cauca</p>
 								<p><i class="fa fa-globe"></i>Colombia</p>
-								<p><i class="fa fa-phone"></i>Celular: 304-569-9281 </p>
-								<p><i class="fa fa-envelope"></i>supporteffect01@gmail.com</p>
+								<p><i class="fa fa-phone"></i>Celular: 302-328-0893 </p>
+								<p><i class="fa fa-envelope"></i>cscolombia10@gmail.com</p>
 								<br>
 								<p><i class="fa fa-map-marker"></i>Puerto Asís, Putumayo</p>
 								<p><i class="fa fa-globe"></i>Colombia</p>
-								<p><i class="fa fa-phone"></i>Celular: 302-328-0893 </p>
-								<p><i class="fa fa-envelope"></i>supporteffect01@gmail.com</p>
+								<p><i class="fa fa-phone"></i>Celular: 310-264-6741 </p>
+								<p><i class="fa fa-envelope"></i>cscolombia10@gmail.com</p>
 							</address>
 						</div>
 			
@@ -405,29 +410,7 @@
 			<div class="container">
 				<div class="row text-center">
 					<div class="footer-content">
-						<div class="wow animated fadeInDown">
-							<p>Ingresa tu correo Electrónico</p>
-							<p>para estar informado de futuras ofertas o cupones de descuento</p>
-							
-						</div>
-						<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
-							<div class="input-field">
-								<input type="email" class="subscribe form-control" placeholder="Ingerese su Correo electrónico...">
-								<button type="submit" class="submit-icon">
-									<i class="fa fa-paper-plane fa-lg"></i>
-								</button>
-							</div>
-						</form>
-						<div class="footer-social">
-							<ul>
-								<li class="wow animated zoomIn"><a href="#"><i class="fa fa-facebook-square fa-3x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i class="fa fa-comment fa-3x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i class="fa fa-instagram fa-3x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="0.9s"><a href="#"><i class="fa fa-envelope fa-3x"></i></a></li>
-							</ul>
-						</div>
-						
-						<p>Copyright &copy; 2019 Diseñado y Desarrollado por Support Effect. </p>
+						<p>Copyright &copy; 2019 Diseñado y Desarrollado por Computer Support. </p>
 					</div>
 				</div>
 			</div>
@@ -444,7 +427,7 @@
 		<!-- jquery.fancybox.pack -->
         <script src="public/js/jquery.fancybox.pack.js"></script>
 		<!-- Google Map API -->
-		<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
 		<!-- Owl Carousel -->
         <script src="public/js/owl.carousel.min.js"></script>
         <!-- jquery easing -->
