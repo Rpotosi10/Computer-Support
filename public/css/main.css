@@ -256,7 +256,7 @@ main > section {
          -o-transition: all 0.8s ease 0s;
             transition: all 0.8s ease 0s;
 
-    background-color: argba(248, 10, 10, 0.3)
+    background-color:black;
     box-shadow: 0 1px 4px rgba(255, 255, 255, 0.3);
     padding: 0px 0;
 }
