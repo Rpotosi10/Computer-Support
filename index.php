@@ -93,7 +93,7 @@
 				<!-- main nav -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav">
-                        <li><a href="#body">Inicio</a></li>
+                        <li><a href="#body">Inicioo</a></li>
                         <li><a href="#service">Servicios</a></li>
                         <li><a href="#contact">Contáctanos</a></li>
                     </ul>
