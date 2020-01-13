@@ -103,7 +103,7 @@
 				<!-- main nav -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav">
-                        <li><a href="#body">Inicioo</a></li>
+                        <li><a href="#body">Inicio</a></li>
                         <li><a href="#service">Servicios</a></li>
                         <li><a href="#contact">Contáctanos</a></li>
                     </ul>
@@ -127,7 +127,7 @@
 
 				<div class="sl-slider">
 				
-					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+					<div class="sl-slide" >
 							<div class="bg-img bg-img-1 animated zoomInUp"></div>
 								<div class="slide-caption">
                            		 <div class="caption-content">
@@ -139,7 +139,7 @@
 						
 					</div>
 					
-					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+					<div class="sl-slide">
 					
 						<div class="bg-img bg-img-2 animated zoomIn"></div>
 						<div class="slide-caption">
@@ -395,12 +395,12 @@
 								<p><i class="fa fa-map-marker"></i>Cali, Valle del Cauca</p>
 								<p><i class="fa fa-globe"></i>Colombia</p>
 								<p><i class="fa fa-phone"></i>Celular: 302-328-0893 </p>
-								<p><i class="fa fa-envelope"></i>cscolombia10@gmail.com</p>
+								<p><i class="fa fa-envelope"></i>info@computersupportsolutions.online</p>
 								<br>
 								<p><i class="fa fa-map-marker"></i>Puerto Asís, Putumayo</p>
 								<p><i class="fa fa-globe"></i>Colombia</p>
 								<p><i class="fa fa-phone"></i>Celular: 310-264-6741 </p>
-								<p><i class="fa fa-envelope"></i>cscolombia10@gmail.com</p>
+								<p><i class="fa fa-envelope"></i>info@computersupportsolutions.online</p>
 							</address>
 						</div>
 			
