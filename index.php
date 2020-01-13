@@ -128,12 +128,10 @@
 				<div class="sl-slider">
 				
 					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
-
-						<div class="bg-img bg-img-1"></div>
-
-						<div class="slide-caption">
-                            <div class="caption-content">
-                                <h2 class="animated fadeInDown">Computer Support</h2>
+							<div class="bg-img bg-img-1 animated zoomInUp"></div>
+								<div class="slide-caption">
+                           		 <div class="caption-content">
+                                <h2 class="animated slideInRight">Computer Support</h2>
                                 <span class="animated fadeInDown">Soluciones e ingeniería</span>
                                 <a href="#contact" class="btn btn-blue btn-effect">Contáctanos</a>
                             </div>
@@ -143,7 +141,7 @@
 					
 					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
 					
-						<div class="bg-img bg-img-2"></div>
+						<div class="bg-img bg-img-2 animated zoomIn"></div>
 						<div class="slide-caption">
                             <div class="caption-content">
                                 <h2>Desarrollo web</h2>
@@ -205,7 +203,7 @@
 		
         <!--
         End Home SliderEnd
-        ==================================== -->
+		==================================== -->
 			
 			<!-- acerca section -->
 			<section id="acerca" >
@@ -214,7 +212,7 @@
 						
 						<div class="col-md-7 col-md-offset-3 wow animated fadeInRight">
 							<div class="welcome-block">
-								<h3>¿Porque Computer Support?</h3>								
+								<h3 class="text-center">¿Porque Computer Support?</h3>								
 						     	 <div class="message-body">
 									<img src="public/img/soporte-cliente.png" class="pull-left" alt="member">
 						       		<p>	La eficiencia y eficacia de nuestras soluciones, son producto de nuestro compromiso con valores sólidos corporativos y con cada objetivo de nuestros clientes. <br>
