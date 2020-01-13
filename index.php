@@ -7,10 +7,7 @@
 		<!-- Always force latest IE rendering engine or request Chrome Frame -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Computer Support</title>		
-		<!-- Meta Description -->
-        <meta name="description" content="Blue One Page Creative HTML5 Template">
-        <meta name="keywords" content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
-        <meta name="author" content="Muhammad Morshed">
+		
 		
 		<!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -53,7 +50,20 @@
 		s0.parentNode.insertBefore(s1,s0);
 		})();
 		</script>
-<!--End of Tawk.to Script-->
+		<!--End of Tawk.to Script-->
+
+		<!-- preloader star-->
+		<script>
+		$(function(){
+		setTimeout(function(){ 
+		$("#preload").addClass("out");
+		}, 3000);
+		setTimeout(function(){ 
+		$("#preload").remove();
+		}, 4000);
+		});
+		</script>
+		<!--preloader end-->
 		
 <!--End of Tawk.to Script-->
 
@@ -150,7 +160,6 @@
 						<div class="slide-caption">
                             <div class="caption-content">
                                 <h2>Mantenimiento de computadores</h2>
-								<span>¿Problema con su equipo de cómputo?</span>
 								<span>¿Tienes problemas con tú equipo? <br> ¿Es lento o presenta fallas? <br>nosotros lo resolvemos !</span>
                                 <a href="#contact" class="btn btn-blue btn-effect">Contáctanos</a>
                             </div>
