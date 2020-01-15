@@ -350,7 +350,7 @@
 							<ul class="social-button">
 								<li class="wow animated zoomIn"><a href="https://www.facebook.com/Computer-Support-110602313805261/"><i class="fa fa-facebook-square fa-2x"></i></a></li>
 								<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="https://wa.me/573102646741"><i class="icon-whatsapp fa-2x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="https://www.instagram.com/cscolombia10/?hl=es-la"><i class="fa  fa-instagram fa-2x"></i></a></li>							
+								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="https://www.instagram.com/computer__support/?hl=es-la"><i class="fa  fa-instagram fa-2x"></i></a></li>							
 							</ul>
 							
 						</div>

@@ -12,38 +12,21 @@ echo "<script>alert('Los campos marcados con * son obligatorios');location.href 
 
 }else{
 
+    ini_set( 'display_errors', 1 );
+    error_reporting( E_ALL );
+    $from = "info@computersupportsolutions.online";
+    $to = "cscolombia10@gmail.com";
+    $subject = "Checking PHP mail";
+    $message = "PHP mail works just fine";
 
-    require("archivosformulario/class.phpmailer.php"); // Requiere PHPMAILER para poder enviar el formulario desde el SMTP de google
-    $mail = new PHPMailer();
+    $headers = 
+    "Nombre: $Nombre \n". // Nombre del usuario
+    "Asunto: $Subject \n". //Asunto del usuario
+    "Email: $Email \n".    // Email del usuario
+    "Mensaje: $Mensaje \n"; // Mensaje del usuario;
 
-    $mail->From     = $Email;
-    $mail->FromName = $Nombre; 
-    $mail->AddAddress("info@computersupportsolutions.online"); // Dirección a la que llegaran los mensajes.
-
-// Aquí van los datos que apareceran en el correo que reciba
-
-    $mail->WordWrap = 50; 
-    $mail->IsHTML(true);     
-    $mail->Subject  =  "Solicito servicio"; // Asunto del mensaje.
-    $mail->Body     =  "Nombre: $Nombre \n<br />". // Nombre del usuario
-    "Asunto: $Subject \n <br/>". //Asunto del usuario
-    "Email: $Email \n<br />".    // Email del usuario
-    "Mensaje: $Mensaje \n<br />"; // Mensaje del usuario
-    
-
-// Datos del servidor SMTP, podemos usar el de Google, Outlook, etc...
-
-    $mail->IsSMTP(); 
-    $mail->Host = "ssl://smtp.gmail.com:465";  // Servidor de Salida. 465 es uno de los puertos que usa Google para su servidor SMTP
-    $mail->SMTPAuth = true; 
-    $mail->Username = "info@computersupportsolutions.online";  // Correo Electrónico
-    $mail->Password = "RA2020**"; // Contraseña del correo
-
-    if ($mail->Send())
-    echo "<script>alert('Formulario enviado exitosamente, le responderemos lo más pronto posible.');location.href ='javascript:history.back()';</script>";
-    else
-    echo "<script>alert('Error al enviar el formulario');location.href ='javascript:history.back()';</script>";
-
+    mail($to,$subject,$message, $headers);
+    echo  "<script>alert('Formulario enviado exitosamente, le responderemos lo más pronto posible.');location.href ='javascript:history.back()';</script>";
 }
 
 ?>
